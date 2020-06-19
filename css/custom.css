@@ -1,0 +1,14 @@
+
+.imagenCarousel {
+  height: 200px;
+}
+
+.ruedasFondo {
+    opacity: .4;
+    background-image: url('../images/fondo2.png');
+    height: 200px;
+    background-size: cover;
+    background-position: center top;
+    padding:15%;
+    display: flex;
+}
