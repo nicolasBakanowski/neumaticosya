@@ -4,7 +4,7 @@
 }
 
 .ruedasFondo {
-    background-image: url('../images/fondo2.png');
+    background-image: url("/images/fondo2.png");
     height: 200px;
     background-size: cover;
     background-position: center top;
@@ -12,8 +12,17 @@
     display: flex;
 }
  @media (min-width: 1000px) { 
-   .imagenCarousel { 
-    padding-top: 1%;
-    width: 200px;    
+   .conteiner {
+    margin: 1px solid black; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+   }
+   .carousel-inner{
+      box-shadow: slateblue;
+      min-width: 900px !important;
+     
    }
   }
+  
