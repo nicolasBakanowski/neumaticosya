@@ -11,3 +11,9 @@
     padding:15%;
     display: flex;
 }
+ @media (min-width: 1000px) { 
+   .imagenCarousel { 
+    padding-top: 1%;
+    width: 200px;    
+   }
+  }
