@@ -1,28 +1,63 @@
+.conteiner{
+  padding-bottom: 10px;
+}
+.separador{
+  margin: 1px black solid;
+}
+
+.fullbackground{
+  background-image: linear-gradient(to right,rgba(0,0,0,.0001) 0, rgba(0,0,0.5) 100%);
+}
 
 .imagenCarousel {
   height: 200px;
 }
 
 .ruedasFondo {
-    background-image: url("/images/fondo2.png");
-    height: 200px;
     background-size: cover;
     background-position: center top;
     padding:15%;
-    display: flex;
+    display: flex;   
 }
- @media (min-width: 1000px) { 
-   .conteiner {
-    margin: 1px solid black; 
+.product{
+  padding: 10px;
+}
+.box{
+  margin-left: 10px;
+  width: 100px;
+  height: 200px;
+  padding-left: 30px;
+  display: flex
+}
+
+.card-img-top{
+  max-width: 150px;}
+  
+.carousel-control-next{
+  background-image: linear-gradient(to right,rgba(0,0,0,.0001) 0, rgba(0,0,0.5) 100%);
+}
+.carousel-control-prev{
+  background-image: linear-gradient(to left,rgba(0,0,0,.0001) 0, rgba(0,0,0.5) 100%)
+}
+    @media (min-width: 1000px) { 
+   .conteiner { 
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 10px;
+    
    }
    .carousel-inner{
-      box-shadow: slateblue;
-      min-width: 900px !important;
-     
+     min-width: 760px !important;     
    }
+   .box{
+    width: 500px;
+    height: 200px;
+    padding-left: 10px;
+    display: flex
+  }
+  .card-img-top{
+    max-width: 150px;
+
+  }
   }
   
